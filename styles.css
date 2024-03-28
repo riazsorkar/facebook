@@ -161,3 +161,91 @@ hr {
     padding: 15px;
   }
 }
+
+
+
+/* OFFER BOX DESIGN  */
+
+/* style.css */
+
+
+.btn{
+  background-color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 15px;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  padding: 20px 20px;
+  font-weight: 800;
+}
+.btn:hover{
+  background-color: white;
+  color: rgb(0, 0, 0);
+  transition: background-color 0.5s linear , color 0.5s ease-in;
+
+}
+.hero h1{
+  font-size: 45px;
+  text-transform: uppercase;
+  color: white;
+  font-family: 'Roboto Slab', serif;
+  margin-bottom: 10px;
+}
+.hero p{
+  font-size: 25px;
+  color: white;
+  margin-bottom: 20px;
+
+}
+header{
+  background-color: rgb(255, 174, 0);
+  height: 100vh;
+}
+.font-page{
+  display: flex;
+  align-items: center;
+  margin: 0px 50px;
+  flex-direction: row;
+}
+.hero strong {
+  color: rgb(0, 0, 0);
+}
+.hero-im{
+  background-color: white;
+  border-radius: 25%;
+  height: 500px;
+  margin: 20px;
+}
+.hero-im:hover{
+  background-color: rgb(255, 174, 0);
+  border-radius: 25%;
+  transition: background-color 1s linear;
+}
+.hero a{
+  color: darkgrey;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.hero a:hover{
+  color: red;
+  transition: color 0.5s linear;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .font-page{
+      display: flex;
+      align-items: center;
+      margin: 0px 50px;
+      flex-direction: column; 
+      flex-direction: column-reverse;
+      gap: 27px;
+  }
+}
+
+
+
+
